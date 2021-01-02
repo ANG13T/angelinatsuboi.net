@@ -687,7 +687,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: rgb(255, 2, 199);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -787,7 +787,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: rgb(255, 2, 199);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -923,7 +923,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: rgb(255, 2, 199) !important;
 }
 
 .portfolio-details .portfolio-info {
