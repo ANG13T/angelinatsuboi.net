@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #2a0431;
   color: #fff;
   position: relative;
   background: transparent;
@@ -19,7 +19,12 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  /* background: #040404 url("../img/bg.jpg") top right no-repeat; */
+  background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #20032e, #381c57);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #20032e, #381c57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   background-size: cover;
   left: 0;
   right: 0;
@@ -216,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgba(0, 0, 0, 0.7);
+  background: #1c0120;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -252,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(9, 9, 9, 0.6);
+  background: #1c0120;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -278,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #1c0120;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
