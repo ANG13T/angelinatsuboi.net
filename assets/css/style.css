@@ -715,6 +715,19 @@ section .container {
   opacity: 0;
 }
 
+.coffee{
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.coffee-text{
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
