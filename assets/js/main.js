@@ -7,6 +7,10 @@
 !(function($) {
   "use strict";
 
+  $('.progress .progress-bar').each(function() {
+    $(this).css("width", $(this).attr("aria-valuenow") + '%');
+  });
+
   // Nav Menu
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -106,15 +110,6 @@
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
-  });
-
-  // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
